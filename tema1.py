@@ -1,0 +1,15 @@
+lista1 = [7, 8, 9, 2, 3, 1, 4, 10, 5, 6]
+lista2 = list(lista1)
+#a)
+lista2.sort()
+print(lista2)
+#b)
+lista2.reverse()
+print(lista1)
+#c)
+print(lista1[::2])
+#d)
+print(lista1[1::2])
+#e)
+lista2 = [x for x in lista1 if x % 3 == 0 and x >= 3]
+print(lista2)
